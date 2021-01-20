@@ -6,15 +6,17 @@ html {
 
 body {
   margin: 0;
+  background: #6465A5;
 }
 
 navbar {
   display: flex;
   flex-direction: row;
-  background-color: gray;
+  background-color: #FFF;
   justify-content: space-between;
   align-items: center;
   min-height: 80px;
+  border-radius: 10px;
 }
 
 #nav-logo {
@@ -34,7 +36,24 @@ navbar {
   padding: 0px 10px;
 }
 
+navbar a {
+  font-weight: 650;
+  color: #6465A5;
+  text-decoration: none;
+}
+
+navbar a:hover {
+  color: #F05837;
+  text-decoration: underline;
+}
+
+#nav-logo a:hover {
+  color: #6465A5;
+  text-decoration: none;
+}
+
 header {
+  color: #6465A5;
   font-size: 32px;
   font-weight: 500;
 }
