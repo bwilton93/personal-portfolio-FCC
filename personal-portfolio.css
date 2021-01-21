@@ -12,6 +12,7 @@ body {
 main {
   text-align: center;
   color: #F28A30;
+  margin-bottom: 40px;
 }
 
 navbar {
@@ -90,6 +91,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 35px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
@@ -152,8 +154,41 @@ hr {
   width: 95%;
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 800px) {
   .timeline-grid-container {
+    grid-template-columns: auto auto;
+  }
+  
+  .grid-vertical-line, .grid-date {
+    grid-column: 1 / 2;
+  }
+  
+  .grid-content, .grid-no-content {
+    grid-column: 2 / 3;
+    justify-self: left;
+  }
+  
+  .hide-on-mobile {
     display: none;
+  }
+  
+  .row-1 {
+    grid-row: 1 / 2;
+  }
+  
+  .row-2 {
+    grid-row : 2 / 3;
+  }
+  
+  .row-3 {
+    grid-row : 3 / 4;
+  }
+  
+  .row-4 {
+    grid-row : 4 / 5;
+  }
+  
+  .row-5 {
+    grid-row : 5 / 6;
   }
 }
