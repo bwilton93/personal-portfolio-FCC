@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: #F28A30;
 }
 
 body {
@@ -10,8 +11,7 @@ body {
 }
 
 main {
-  text-align: center;
-  color: #F28A30;
+  text-align: center; 
   margin-bottom: 40px;
 }
 
@@ -25,9 +25,11 @@ navbar {
   border-radius: 10px;
 }
 
-#nav-logo {
+#logo-block {
+  margin-top: 1rem;
   margin-left: 25px;
   justify-content: center;
+  line-height: 0.5;
 }
 
 .nav-links ul {
@@ -63,6 +65,35 @@ header {
   font-weight: 500;
 }
 
+.flex-container {
+  align-items: center;
+  justify-content: center;
+}
+
+#about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-content > div {
+  max-width: 500px;
+  padding: 0px 20px;
+}
+
+.image-block > img {
+  border-radius: 50%;
+  max-width: 500px; 
+  max-height: 500px;
+}
+
+#profile-image {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F05837;
+}
+
 @media only screen and (max-width : 1000px) {
   navbar {
     justify-content: space-around;
@@ -73,7 +104,7 @@ header {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 800px) {
   navbar {
     justify-content: space-around;
   }
