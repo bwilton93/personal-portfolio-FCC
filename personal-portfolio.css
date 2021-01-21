@@ -82,6 +82,9 @@ header {
   padding: 0px 20px;
 }
 
+.vertical-text-block > p {
+  padding: 10px 0px;
+}
 .image-block > img {
   border-radius: 50%;
   max-width: 500px; 
@@ -227,6 +230,17 @@ hr {
   .row-5 {
     grid-row : 5 / 6;
   }
+}
+
+#tech-stack-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#tech-stack-flex > div {
+  max-width: 500px;
 }
 
 .tech-stack-logos {
