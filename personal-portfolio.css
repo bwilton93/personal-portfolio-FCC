@@ -100,7 +100,7 @@ header {
   }
   
   .nav-links {
-    width: 500px;
+    width: auto;
   }
 }
 
@@ -111,10 +111,15 @@ header {
    
   .nav-links {
     width: auto;
-  }
+  }  
   
   .nav-links ul {
     flex-direction: column;
+  }
+  
+  .image-block > img {
+    max-width: 400px; 
+    max-height: 400px;
   }
 }
 
