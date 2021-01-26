@@ -1,129 +1,293 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #F28A30;
+}
 
-<nav id="navbar">
-  <div id="logo-block">
-    <header id="nav-logo"><a href="#navbar">BARNEY.dev</a></header>
-    <p>Aspring Software Engineer</p>
-  </div>
-  <section class="nav-links">
-    <ul>
-      <li><a href="#about-anchor">About</a></li>
-      <li><a href="#technology-anchor">Technologies</a></li>
-      <li><a href="#timeline-anchor">Timeline</a></li>
-      <li><a href="#projects-anchor">My Projects</a></li>
-      <li><a href="#socials-anchor">My Socials</a></li>
-    </ul>
-  </section>
-</nav>
-<main>
-  <section id="welcome-section">
-    <div class="anchor">
-      <a name="about-anchor"> </a>
-      <h1>About</h1>
-    </div>
-    <hr>
-    <div class="flex-container">
-      <div id="about-content">
-        <div class="image-block">
-          <img id="profile-image" src="https://pbs.twimg.com/profile_images/1322688202893918208/WWU0qew8_400x400.jpg" alt="profile-picture">
-        </div>
-        <div class="vertical-text-block">
-          <p>My name is Barney, and I try to make cool stuff on the internet. I live in the United Kingdom and currently work as a Data Analyst for a web design agency. Although this is not my passion. After working on a project using Python in February 2020 I knew I wanted to persue a career in software development. The feeling of joy you get when solve that one problem that eludes you is unrivalled.</p>
-          <p>Although I wish to become a Software Engineer my life is not entirely ruled by computers. In my spare time I enjoy sports, playing hockey for a London team every Saturday across the winter. My other, considerably more nerdy, hobby is Dungeons & Dragons. Meeting every other week with a group of friends to kick back, relax, have some beers and save the world from impending doom.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr>
-  <section id="technology">
-    <div class="anchor">
-      <a name="technology-anchor"> </a>
-      <h1>Technologies</h1>
-    </div>
-    <hr>
-    <div id="tech-stack-flex">
-      <div>
-        <img class="tech-stack-logos" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML5">
-        <img class="tech-stack-logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS3">
-      </div>
-    </div>
-  </section>
-  <hr>
-  <section id="timeline">
-    <div class="anchor">
-      <a name="timeline-anchor"> </a>
-      <h1>Learning Timeline</h1>
-    </div>
-    <hr>
-    <div class="timeline-grid-container">
-      <div class="grid-item-left hide-on-mobile row-1"></div>
-      <div class="grid-date row-1">
-        February - March</br>2020
-      </div>
-      <div class="grid-item-right grid-content row-1">
-        <p>My first experience with coding. Using Python to build a web scraper capable of pulling back information from dynamically generated web pages such as Twitter.</p>
-      </div>
-      <div class="grid-item-left hide-on-mobile row-2"></div>
-      <div class="grid-vertical-line row-2"></div>
-      <div class="grid-item-right grid-no-content row-2"></div>
-      <div class="grid-item-left grid-content row-3">
-        <p>Started my journey properly by using The Odin Project and FreeCodeCamp. Began learning about HTML and CSS.</p>
-      </div>
-      <div class="grid-date row-3">
-        November</br>2020
-      </div>
-      <div class="grid-item-right hide-on-mobile row-3"></div>
-      <div class="grid-item-left grid-no-content row-4"></div>
-      <div class="grid-vertical-line row-4"></div>  
-      <div class="grid-item-right hide-on-mobile row-4"></div>
-      <div class="grid-item-left hide-on-mobile row-5"></div>
-      <div class="grid-date row-5">
-        December</br>2020
-      </div>
-      <div class="grid-item-right grid-content row-5">
-        <p>Started work on FreeCodeCamp HTML and CSS Projects</p>
-      </div>
-      <div class="grid-item-left hide-on-mobile row-6"></div>
-      <div class="grid-vertical-line row-6"></div>
-      <div class="grid-item-right row-6"></div>
-      <div class="grid-item-left grid-content row-7">
-        <p>Finished HTML & CSS projects on FreeCodeCamp</p>
-      </div>
-      <div class="grid-date row-7">
-        January</br>2021
-      </div>
-      <div class="grid-item-right hide-on-mobile row-7"></div>
-    </div>
-  </section>
-  <hr>
-  <section id="projects">
-    <div class="anchor">
-      <a name="projects-anchor"> </a>
-      <h1>My Projects</h1>
-    </div>
-  </section>
-  <hr>
-  <section id="socials">
-    <div class="anchor">
-      <a name="socials-anchor"> </a>
-      <h1>My Socials</h1>
-    </div>
-    <hr>
-    <div>
-      <a href="https://www.linkedin.com/in/barney-wilton-a85336164/" target="_top"><img class="social-icon" src="https://image.flaticon.com/icons/png/512/61/61109.png" alt="linkedin-logo"></a>
-      <a href="https://twitter.com/hansmolepigeon" target="_top"><img class="social-icon" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" alt="twitter-logo"></a>
-      <a href="https://github.com/bwilton93" target="_top"><img class="social-icon" src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="github-logo"></a>
-    </div>
-  </section>
-</main>
-<footer>
-  <section class="footer-links">
-    <a href="#navbar">Back To Top</a>
-  </section>
-</footer>
+body {
+  margin: 0;
+  background: #6465A5;
+}
+
+main {
+  text-align: center; 
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  border-radius: 10px;
+}
+
+#logo-block {
+  margin-top: 1rem;
+  margin-left: 25px;
+  justify-content: center;
+  line-height: 0.5;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-right: 25px;
+  padding: 0px 10px;
+}
+
+#navbar a {
+  font-weight: 650;
+  color: #6465A5;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #F05837;
+  text-decoration: underline;
+}
+
+#nav-logo a:hover {
+  color: #6465A5;
+  text-decoration: none;
+}
+
+header {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  align-items: center;
+  justify-content: center;
+}
+
+#about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-content > div {
+  max-width: 500px;
+  padding: 0px 20px;
+}
+
+.vertical-text-block > p {
+  padding: 10px 0px;
+}
+.image-block > img {
+  border-radius: 50%;
+  max-width: 500px; 
+  max-height: 500px;
+}
+
+#profile-image {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F05837;
+}
+
+.anchor a {
+  position: absolute;
+  top: -85px;
+}
+
+.anchor {
+  position: relative;
+  z-index: -1;
+}
+
+@media only screen and (max-width : 1000px) {
+  #navbar {
+    justify-content: space-around;
+  }
   
-<!--#6465A5 - dark lilac-->
-<!--#6975A6 - light lilac-->
-<!--#F3E96B - light yellow-->
-<!--#F28A30 - orange-->
-<!--#F05837 - orange/red-->
+  .nav-links {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  #navbar {
+    justify-content: space-around;
+  }
+  
+  main {
+    margin-top: 155px;
+  }
+  
+  .anchor a {
+    top: -155px;
+  }
+   
+  .nav-links {
+    width: auto;
+  }  
+  
+  .nav-links ul {
+    flex-direction: column;
+  }
+  
+  .image-block > img {
+    max-width: 400px; 
+    max-height: 400px;
+  }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer-links a {
+  font-weight: 650;
+  color: #6465A5;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #F05837;
+  text-decoration: underline;
+}
+
+footer .footer-links {
+  padding: 5px;
+}
+
+.timeline-grid-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  column-gap: 1em;
+}
+
+.grid-date {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.grid-vertical-line {
+  height: 100px;
+  background: #F28A30;
+  width: 10px;
+  border-radius: 5px;
+}
+
+.grid-item-right, .grid-item-left {
+  text-align: center;
+  max-width: 250px;
+}
+
+.grid-item-left {
+  justify-self: right;
+}
+
+.grid-item-right {
+  display: flex;
+  align-items: center;
+  justify-self: left;
+}
+
+hr {
+  width: 95%;
+}
+
+@media only screen and (max-width : 800px) {
+  .timeline-grid-container {
+    grid-template-columns: auto auto;
+  }
+  
+  .grid-vertical-line, .grid-date {
+    grid-column: 1 / 2;
+  }
+  
+  .grid-content, .grid-no-content {
+    grid-column: 2 / 3;
+    justify-self: left;
+  }
+  
+  .hide-on-mobile {
+    display: none;
+  }
+  
+  .row-1 {
+    grid-row: 1 / 2;
+  }
+  
+  .row-2 {
+    grid-row : 2 / 3;
+  }
+  
+  .row-3 {
+    grid-row : 3 / 4;
+  }
+  
+  .row-4 {
+    grid-row : 4 / 5;
+  }
+  
+  .row-5 {
+    grid-row : 5 / 6;
+  }
+  
+  .row-6 {
+    grid-row : 6 / 7;
+  }
+
+  .row-7 {
+    grid-row : 7 / 8;
+  }
+}
+
+#tech-stack-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#tech-stack-flex > div {
+  max-width: 500px;
+}
+
+.tech-stack-logos {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.social-icon {
+  max-width: 50px;
+  max-height: 50px;
+  opacity: 0.5;
+}
+
