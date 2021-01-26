@@ -230,6 +230,14 @@ hr {
   .row-5 {
     grid-row : 5 / 6;
   }
+  
+  .row-6 {
+    grid-row : 6 / 7;
+  }
+
+  .row-7 {
+    grid-row : 7 / 8;
+  }
 }
 
 #tech-stack-flex {
@@ -246,4 +254,10 @@ hr {
 .tech-stack-logos {
   max-width: 100px;
   max-height: 100px;
+}
+
+.social-icon {
+  max-width: 50px;
+  max-height: 50px;
+  opacity: 0.5;
 }
